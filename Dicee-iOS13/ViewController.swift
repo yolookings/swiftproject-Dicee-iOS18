@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Dicee-iOS13
 //
-//  Created by Angela Yu on 11/06/2019.
+//  Created by Yolookings on 1/02/2025.
 //  Copyright © 2019 London App Brewery. All rights reserved.
 //
 
@@ -15,20 +15,23 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var diceImageView2: UIImageView!
     
+    var leftDiceNumber = 1
+    var rightDiceNumber = 5
+    
     // function to change the image or something
     override func viewDidLoad() {
         super.viewDidLoad()
-        // who.what = value
-        // #imageLiteral
-        diceImageView1.image = #imageLiteral(resourceName: "DiceSix")
-        diceImageView2.image = #imageLiteral(resourceName: "DiceTwo")
         
     }
+    
     // action button (process left to right)
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         print("Button got tapped.")
-        diceImageView1.image = #imageLiteral(resourceName: "DiceFour")
-        diceImageView2.image = #imageLiteral(resourceName: "DiceFour")
+        diceImageView1.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [leftDiceNumber]
+        diceImageView2.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [rightDiceNumber]
+        
+        leftDiceNumber = leftDiceNumber + 1
+        rightDiceNumber = rightDiceNumber - 1
     }
 }
 
