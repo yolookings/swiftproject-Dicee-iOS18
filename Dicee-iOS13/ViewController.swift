@@ -14,24 +14,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageView1: UIImageView!
     
     @IBOutlet weak var diceImageView2: UIImageView!
-    
-    var leftDiceNumber = 1
-    var rightDiceNumber = 5
-    
-    // function to change the image or something
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    // make constant array element
+    let diceArray = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")]
         
-    }
-    
     // action button (process left to right)
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         print("Button got tapped.")
-        diceImageView1.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [leftDiceNumber]
-        diceImageView2.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [rightDiceNumber]
+        diceImageView1.image = diceArray.randomElement() // make random element like [Int.random(in: 0...5)]
+        diceImageView2.image = diceArray.randomElement()
         
-        leftDiceNumber = leftDiceNumber + 1
-        rightDiceNumber = rightDiceNumber - 1
     }
 }
 
