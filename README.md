@@ -8,7 +8,7 @@ The objective of this project is to explore core programming concepts in Swift a
 
 ## What you will create
 
-We’re developing a Las Vegas-style dice roller app for iPhone running iOS 18. The app allows users to roll the dice either by pressing a button or by shaking their device. With this app, you’ll always have a fair way to settle any dispute on the go!
+We’re developing a `Las Vegas-style` dice roller app for iPhone running iOS 18. The app allows users to roll the dice either by pressing a button or by shaking their device. With this app, you’ll always have a fair way to settle any dispute on the go!
 
 ## Features
 
