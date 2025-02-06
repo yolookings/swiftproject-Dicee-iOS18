@@ -27,11 +27,11 @@ To run this project on your local machine, follow these steps:
 git clone https://github.com/yolookings/swiftproject-Dicee-iOS18.git
 ```
 
-2. Open the project in Xcode 16.2 or later.
+2. Open the project in `Xcode` 16.2 or later.
 
 3. Ensure you have an iOS 18 simulator or a compatible iPhone running iOS 18.
 
-4. Build and run the project using Command + R.
+4. Build and run the project using `Command + R`.
 
 ## Reference
 
