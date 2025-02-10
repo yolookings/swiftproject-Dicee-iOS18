@@ -49,4 +49,4 @@ This project is developed for educational purposes. Feel free to use and modify 
   <img width="200" height="150" alt="GIF" src="https://media.giphy.com/media/7AwjitZen8KoGGmpmA/giphy.gif?cid=790b7611tcwofaqu8a5g2uj0ziyxtzg06aenjqwzqhad1jfg&ep=v1_gifs_search&rid=giphy.gif&ct=g">
 </p>
 
-<p align="center">_just a gimmick to be funny_ ~</p>
+<p align="center">`_just a gimmick to be funny_ ~`</p>
