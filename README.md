@@ -4,7 +4,7 @@
 
 ## Goal
 
-The objective of this project is to explore core programming concepts in Swift and iOS development using `Xcode 16.2` and iOS 18 SDK. This app will help reinforce fundamental coding principles while building a fully functional dice roller application.
+The objective of this project is to explore core programming concepts in Swift and iOS development using `Xcode 16.2` and `iOS 18` SDK. This app will help reinforce fundamental coding principles while building a fully functional dice roller application.
 
 ## What you will create
 
